@@ -2,10 +2,10 @@
 #inculde<conio.h>
 void main()
 {
-  int a,c;
+  int a,b,c;
   printf("enter the values");
-  scanf("%d%",&a);
-  c=a*a;
+  scanf("%d%",&a&b);
+  c=a^b;
   printf("power of %d",c);
   getch();
 }
