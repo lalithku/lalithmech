@@ -1,9 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<conio.h>
 #include<string.h>
 int main(void) 
 {
 	char str1[50],str2[50];
 	int n1,n2;
+	clrscr();
 	printf("enter the string1:");
 	scanf("%s",str1);
 	printf("enter the string2:");
