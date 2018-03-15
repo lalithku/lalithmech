@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<string.h>
 void main()
-{
+      {
 	char a[20];
 	int i,k;
 	printf("ENTER THE INPUT STRING:\n");
@@ -13,4 +12,4 @@ void main()
         printf("%c",a[i]);
 	}
 	
-}
+      }
