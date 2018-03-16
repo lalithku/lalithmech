@@ -1,12 +1,16 @@
 #include<stdio.h>
-#include<conio.h>
+#include<string.h>
 void main()
 {
-int a[2];
-clrscr();
-printf("hello world");
-{
-scanf("%d",&a);
-}
-getch();
+	char a[20];
+	int i,k;
+	printf("ENTER THE INPUT STRING:\n");
+	scanf("%s",a);
+	printf("ENTER THE INPUT INTEGER TO PRINT THE CHARACTERS:\n");
+	scanf("%d",&k);
+	for(i=0;i<k;i++)
+	{
+		printf("%c",a[i]);
+	}
+	
 }
