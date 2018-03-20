@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
 int m,n,a;
@@ -9,4 +10,5 @@ if(a%2==0)
 printf("Even");
 else
 printf("Odd");
+  getch();
 }
